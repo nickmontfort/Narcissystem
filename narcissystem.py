@@ -63,7 +63,7 @@ except OSError:
 if len(''.join(lines)) != len(''.join(lines).encode()):
     raise IOError("Can't proceed with analysis: I have non-ASCII characters in me! Someone has been messing with me!")
 
-print("I've opened myself up am ready to examine and describe myself.")
+print("I've opened myself up and am ready to examine and describe myself.")
 print()
 print("Next up:")
 print(each_bit.__doc__)
